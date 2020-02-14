@@ -1,0 +1,5 @@
+---
+service: Sample Service
+phase:
+  content: This is demonstration of full potential behind GOV.UK Submit
+  tag: discovery
