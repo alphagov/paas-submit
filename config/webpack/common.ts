@@ -8,6 +8,7 @@ const assetName = (ext?: string): string => `assets/[hash:base32].[name].${ext |
 
 const config: webpack.Configuration = {
   entry: {
+    'assets/init': ['./src/frontend/init.ts'],
     main: [path.resolve(__dirname, '..', '..', 'src', 'server.ts')],
   },
 

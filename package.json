@@ -110,6 +110,7 @@
     "coveragePathIgnorePatterns": [
       "/node_modules/",
       "<rootDir>/config/",
+      "<rootDir>/src/frontend/init.ts",
       ".d.ts",
       "server.ts",
       "index.ts"
